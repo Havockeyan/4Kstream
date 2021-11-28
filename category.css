@@ -1,0 +1,141 @@
+.body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.leftnav {
+    display: flex;
+}
+
+.nav>.leftnav>div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.navlink {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navlink a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navlink:hover {
+    border-bottom: 1px solid black;
+}
+
+.navlink a:hover {
+    color: black;
+}
+
+.category>button {
+    text-transform: uppercase;
+}
+
+.education {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.imggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.education:hover {
+    background-color: green;
+    color: white;
+}
+
+.sports {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.sports:hover {
+    background-color: green;
+    color: white;
+}
+
+.category {
+    display: grid;
+    grid-template-rows: 5px;
+}
+
+.entertainment {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.entertainment:hover {
+    background-color: green;
+    color: white;
+}
+
+.medicines {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.medicines:hover {
+    background-color: green;
+    color: white;
+}
+
+.kids {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.kids:hover {
+    background-color: green;
+    color: white;
+}

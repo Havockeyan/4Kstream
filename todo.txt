@@ -1,0 +1,10 @@
+1.Home page
+ -navigation bars
+  *buttons for categorys,about and Home
+ -some pics and links
+ -logo
+
+2.categorys
+ -buttons for 4 categorys
+
+ 3.about page

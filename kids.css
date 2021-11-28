@@ -1,0 +1,149 @@
+.body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.leftnav {
+    display: flex;
+}
+
+.nav>.leftnav>div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.navlink {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navlink a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navlink:hover {
+    border-bottom: 1px solid black;
+}
+
+.navlink a:hover {
+    color: black;
+}
+
+.imggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.k1 {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.k1:hover {
+    background-color: red;
+    color: white;
+}
+
+.k2 {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.k2:hover {
+    background-color: red;
+    color: white;
+}
+
+.k3 {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.k3:hover {
+    background-color: red;
+    color: white;
+}
+
+.k4 {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.k4:hover {
+    background-color: green;
+    color: white;
+}
+
+.k5 {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.k5:hover {
+    background-color: green;
+    color: white;
+}
+
+.k6 {
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 8px;
+    width: 1500;
+    height: 700;
+    background-color: whitesmoke;
+    color: green;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+
+.k6:hover {
+    background-color: green;
+    color: white;
+}
